@@ -1,0 +1,40 @@
+Stefano Bosisio
+
+October 2016
+
+
+Charging correction tests
+
+- Na ion (10 and 12 A cutoff, big and small box size)
+
+- Acetate
+
+- Methylammonium
+
+- OAH-O1
+
+- CBC-G3
+
+
+
+srad present both in NP and PBC solver
+Normal grid spacing definition 
+Normal PBC PB solver script
+
+
+To create allthe running folder:
+
+for f in inputfiles/* ; do 
+python setup.py $f
+wait
+done
+
+Then:
+
+cd folder
+bash run1.sh
+
+to submit the jobs
+
+
+for COULCOR analysis use the workstation
